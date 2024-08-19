@@ -26,6 +26,7 @@ public class OperationsWithIntegersAndDoubles {
 
         // Utilisation de BigDecimal pour des calculs précis avec des doubles
         BigDecimal bd3 = BigDecimal.valueOf(3.1).setScale(2); // Crée un BigDecimal avec la valeur 3.10
+        //setscale fixe le nombre de decimal
         BigDecimal bd4 = BigDecimal.valueOf(1.21).setScale(2); // Crée un BigDecimal avec la valeur 1.21
         System.out.println(bd3.subtract(bd4)); // Soustraction de deux BigDecimal, résultat précis : 1.89
     }
